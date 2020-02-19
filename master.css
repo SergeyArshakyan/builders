@@ -9,7 +9,7 @@
  }
 
 #anim{
-margin-top: 3px; 
+margin-top: 3px;
 
   position: relative;
   font-family: sans-serif;
@@ -73,13 +73,13 @@ padding-top:15px;
   margin:auto;
 }
 .sec_1_2{
-  background-image: url("333.png");
+  background-image: url("varpet.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
-  height:700px;
-  width:100%;
+  height:274px;
+  width:256px;
   margin:auto;
 }
 @keyframes example {
@@ -87,6 +87,12 @@ padding-top:15px;
   0% {transform: rotate(0deg);}
 
   100% {transform: rotate(-360deg);}
+}
+@keyframes tev {
+
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(-20deg);}
+  100% {transform: rotate(30deg);}
 }
 /* .sec_1_3{
   background-image: url("111.png");
