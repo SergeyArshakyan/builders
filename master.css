@@ -88,11 +88,18 @@ padding-top:15px;
 
   100% {transform: rotate(-360deg);}
 }
+@keyframes us {
+
+  0% {transform: rotate(0deg);}
+  50% {transform: rotate(0deg);}
+  100% {transform: rotate(2deg);margin-left:52px;margin-top: 115px}
+}
+
 @keyframes tev {
 
   0% {transform: rotate(0deg);}
-  50% {transform: rotate(-20deg);}
-  100% {transform: rotate(30deg);}
+  50% {transform: rotate(22deg); }
+  100% {transform: rotate(60deg);margin-left:71px;margin-top: 135px}
 }
 /* .sec_1_3{
   background-image: url("111.png");
