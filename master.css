@@ -36,6 +36,7 @@ margin-top: 3px;
 ul li{
 
   list-style-type: none;
+  text-align: center!important;
   /* background-color: #547; */
 
   padding: 10px;
@@ -51,6 +52,7 @@ ul li:hover{
 ul li a:hover{
 text-decoration: none;
   color:white;
+
 }
 nav{
   float:left
@@ -59,7 +61,7 @@ nav{
 padding-top:15px;
   height:auto;
   overflow:hidden;
-  border:1px solid green;
+  /* border:1px solid green; */
   height:700px;
 }
 .sec_1_1{
